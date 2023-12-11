@@ -20,10 +20,8 @@ function ValidarRut($rut, $digitoVerificador) {
 
     $digitoEsperado = 11 - ($suma % 11);
 
-    // Manejar casos especiales para dígitos esperados
     $digitoEsperado = ($digitoEsperado == 11) ? 0 : (($digitoEsperado == 10) ? 'K' : $digitoEsperado);
 
-    // Comparar el dígito verificador proporcionado con el esperado
     return strtoupper($digitoVerificador) === strtoupper(strval($digitoEsperado));
 }
 function SubirArchivo($archivo){
