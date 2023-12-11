@@ -95,5 +95,6 @@ $datos = get_info($n_documento);
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto, minus quo. Natus temporibus inventore quam commodi, explicabo corporis. Odio ducimus maiores ex nisi reprehenderit impedit blanditiis quae doloremque autem soluta?Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, asperiores? Eveniet, debitis consectetur optio sit ratione sequi iusto obcaecati distinctio impedit explicabo deserunt. Iusto debitis commodi accusantium fugiat sunt iste! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid ad velit dicta ullam maxime tenetur. Et illum nesciunt dolorem, ea consequuntur labore? Expedita repellat odit temporibus deleniti voluptate,</b>
         </div>
     </div>
+    <?php  mysqli_close($conexion); ?>
 </body>
 </html>
