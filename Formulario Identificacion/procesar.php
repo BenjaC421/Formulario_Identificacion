@@ -76,6 +76,7 @@ elseif(!ValidarRut($rut,$identificador)){
 else{
     InsertarBD($nombre,$apellido_p,$apellido_m,$fecha,$rut,$identificador,$ruta,$sexo,$nacionalidad,  $L_nacimiento,$profesion,$donante,$discapacidad);
 }
+mysqli_close($conexion);
 require_once("tabla.php");
 
 ?>
