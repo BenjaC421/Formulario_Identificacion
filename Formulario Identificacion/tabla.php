@@ -29,7 +29,7 @@
     else {
         echo "No se encontraron resultados.";
 }
-
+    mysqli_close($conexion);
     ?>
 </body>
 </html>
